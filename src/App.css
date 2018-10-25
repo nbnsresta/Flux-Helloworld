@@ -22,6 +22,25 @@
   color: #61dafb;
 }
 
+.App li{
+  text-align: left;
+  list-style-type: none;
+}
+
+input{
+  margin: 8px 0;
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  font-size: calc(8px + 2vmin);
+  text-align: center;
+}
+
+input:checked + label{
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
